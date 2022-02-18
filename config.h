@@ -221,6 +221,10 @@
 #define PATH_SEP '/'
 #endif /* PATH_SEP */
 
+#ifndef EOL_HANDLING
+#define EOL_HANDLING
+#endif /* EOL_HANDLING */
+
 #ifndef DSS_HUGE
 #error Support for a 64-bit datatype is required in this release
 #endif
